@@ -226,12 +226,31 @@ input[type="submit"] {
     padding: 1rem;
     margin: 1rem;
   }
-  .lista{
+  .lista {
     display: flex;
     flex-direction: column;
     padding-left: 0;
   }
-  .elb{
+  .elb {
     margin-bottom: 5vh;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .box{
+    margin-left: 230px;
+    margin-right: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .box{
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
   }
 }
