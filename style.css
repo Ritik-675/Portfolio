@@ -254,3 +254,12 @@ input[type="submit"] {
     width: 80%;
   }
 }
+@media screen and (max-width: 600px) {
+  .box{
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+  }
+}
