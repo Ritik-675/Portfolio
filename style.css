@@ -225,4 +225,11 @@ input[type="submit"] {
     padding: 1rem;
     margin: 1rem;
   }
+  .lista{
+    display: flex;
+    flex-direction: column;
+  }
+  .elb{
+    margin-bottom: 5vh;
+  }
 }
