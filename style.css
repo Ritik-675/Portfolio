@@ -186,10 +186,11 @@ body {
   border-radius: 1rem;
 }
 #head{
+  display: block;
     text-align: center;
     background-color: #34d399;
     display: inline;
-    margin: 29%;
+    /* margin: 29%; */
     border-radius: 0.5rem;
     padding: 4px 15px;
 }
