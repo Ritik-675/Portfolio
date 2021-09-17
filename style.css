@@ -10,8 +10,8 @@ body {
   font-size: 1.2rem;
   font-weight: bold;
 }
-#irt:hover{
-  background-color:#d1d5db;
+#irt:hover {
+  background-color: #d1d5db;
   padding: 0.01rem 1rem;
   background-color: white;
   border-radius: 0.5rem;
@@ -35,11 +35,10 @@ body {
 .elb {
   display: inline;
 }
-.tr{
+.tr {
   font-size: 1.5rem;
   font-weight: bold;
   color: var(--dark-grey);
-  
 }
 .navigation {
   background-color: var(--primary-color);
@@ -72,13 +71,11 @@ body {
   padding: 0.5rem 1rem;
   font-weight: bold;
 }
-.button2:hover
-{
-  background-color:#d1d5db ;
+.button2:hover {
+  background-color: #d1d5db;
 }
-.button:hover
-{
-  background-color:#1b7554 ;
+.button:hover {
+  background-color: #1b7554;
 }
 .button2 {
   display: inline;
@@ -152,9 +149,9 @@ h3 {
   padding: 0rem 2rem;
   color: white;
 }
-.cellii:hover{
+.cellii:hover {
   text-decoration: underline;
-  background-color:#d1d5db;
+  background-color: #d1d5db;
   border-radius: 1rem;
 }
 .head2 {
@@ -185,35 +182,47 @@ body {
   padding: 15px;
   border-radius: 1rem;
 }
-#head{
+#head {
   display: block;
-    text-align: center;
-    background-color: #34d399;
-    display: inline;
-    /* margin: 29%; */
-    border-radius: 0.5rem;
-    padding: 4px 15px;
+  text-align: center;
+  background-color: #34d399;
+  display: inline;
+  /* margin: 29%; */
+  border-radius: 0.5rem;
+  padding: 4px 15px;
 }
 input[type="text"],
 input[type="number"],
 input[type="email"],
-textarea{
-    width: 85%;
-    padding: 0.2rem 1rem;
-    margin: 1rem 1rem;
-    border: 2px solid #34d399;
-    border-radius: 0.4rem;
-    padding: 8px 10px;
-    max-width: 85%;
+textarea {
+  width: 85%;
+  padding: 0.2rem 1rem;
+  margin: 1rem 1rem;
+  border: 2px solid #34d399;
+  border-radius: 0.4rem;
+  padding: 8px 10px;
+  max-width: 85%;
 }
-.photu{
-    margin: 0% 38%;
+.photu {
+  margin: 0% 38%;
 }
-input[type="submit"]{
-    margin: 0% 40%;
-    padding: 10px 20px;
-    border-radius: 0.5rem;
-    border: 1px solid #34d399;
-    background-color: #34d399;
-    margin-top: 20px;
+input[type="submit"] {
+  margin: 0% 40%;
+  padding: 10px 20px;
+  border-radius: 0.5rem;
+  border: 1px solid #34d399;
+  background-color: #34d399;
+  margin-top: 20px;
+}
+/* Nav tab responsiveness */
+@media screen and (max-width: 650px) {
+  .pnp {
+    display: flex;
+    flex-direction: column;
+  }
+  #irt {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+  }
 }
