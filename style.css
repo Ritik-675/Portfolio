@@ -235,6 +235,17 @@ input[type="submit"] {
     margin-bottom: 5vh;
   }
 }
+/* @media screen and (max-width: 1200px) and (min-width: 900px) {
+  .box{
+    margin-left: 0px;
+    margin-right: 550px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 80%;
+  }
+} */
 @media screen and (max-width: 1000px) and (min-width: 700px) {
   .box{
     margin-left: 230px;
